@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(85, 52, 76);
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.card{
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title{
+  font-size: xx-larger;
+  color: rgb(247, 178, 3);
+}
+
+.sub_title{
+  color: rgb(12, 9, 9);
+}
+
+.bttun{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.guess{
+  width: 10rem;
+  height: auto;
+  padding: 1rem;
+  margin-left: 3rem;
+  border-radius: 1rem;
+}
+
+.btn{
+  padding: 0.5rem;
+  border-radius: 9px;
+}
+
+.btn_guess{
+  font-size: medium;
+  background-color: rgb(225, 232, 8);
+}
+
+.btn_play{
+  font-size: medium;
+  background-color: rgb(57, 83, 83);
+}
+
+.scorce{
+  font-size: x-large;
+  margin-left: 55rem;
+  margin-top: -6.5rem;
+  color: whitesmoke;
+}
+
+
