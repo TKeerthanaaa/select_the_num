@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(85, 52, 76);
+  background-color: rgb(185, 124, 168);
 }
 
 .container {
@@ -31,7 +31,7 @@ body {
 
 .title {
   font-size: xx-larger;
-  color: rgb(247, 178, 3);
+  color: rgb(1, 1, 9);
 }
 
 .sub_title {
@@ -59,17 +59,26 @@ body {
 
 .btn_guess {
   font-size: medium;
-  background-color: rgb(225, 232, 8);
+  background-color: rgb(18, 10, 10);
+  color: white;
+  font-weight: 600;
 }
 
+.msg {
+  margin-top: -8rem;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
 .btn_play {
   font-size: medium;
-  background-color: rgb(57, 83, 83);
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 .scorce {
   font-size: x-large;
   margin-left: 55rem;
-  margin-top: -6.5rem;
-  color: whitesmoke;
+  margin-top: -3.5rem;
+  color: rgb(2, 0, 14);
+  font-weight: 600;
 }
