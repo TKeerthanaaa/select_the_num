@@ -11,13 +11,18 @@ const msgEl = document.getElementById("msg");
 
 // solution
 const getRandomNumber = function () {
-  return Math.trunc(Math.random() * 100 + 1);
-};
+  return Math.trunc(Math.random () * 100 + 1)
+}
 
 const randomNumber = getRandomNumber();
 
 // Button guess event
-btnGuessEl.addEventListener('click', function () {
-  const userInput = btnguessInputEl.value;
-  console.log(userInput);
-})
+// btnGuessEl.addEventListener('click', function () {
+//   const userInput = guessInputEl.value;
+//   console.log(userInput);
+// })
+
+
+
+
+
